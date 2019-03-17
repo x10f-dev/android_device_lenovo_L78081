@@ -33,3 +33,8 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 include $(LOCAL_PATH)/kernel.mk
 include device/generic/twrpbuilder/BoardConfig64.mk
 
+# TW Flags
+TW_THEME := portrait_hdpi
+RECOVERY_SDCARD_ON_DATA := true
+TWRP_EVENT_LOGGING := true
+
