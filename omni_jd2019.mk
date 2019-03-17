@@ -20,3 +20,6 @@ PRODUCT_NAME := omni_jd2019
 PRODUCT_BRAND := lenovo
 PRODUCT_MODEL := Lenovo L78071
 PRODUCT_MANUFACTURER := lenovo
+
+# Copy rtwrp fstab
+PRODUCT_COPY_FILES += device/lenovo/jd2019/stock/twrp.fstab:recovery/root/etc/twrp.fstab
